@@ -33,13 +33,13 @@
 	
 	создать файл .gitignore (`gitignire.txt ->> cmd$ ren gitignore.txt .gitignore`)
 	например, в данном случае у него такое содержание:  
-					```
-					/tests.py
-					
-					/logger_venv/*
-					
-					.*
-					```
+	
+```
+/tests.py
+/logger_venv/*
+.*
+```
+
 - Добавляем и коммитим отслеживаемые файлы:
 
 	`git add -A`
