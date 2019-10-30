@@ -1,0 +1,7 @@
+bottle==0.12.17
+certifi==2019.9.11
+chardet==3.0.4
+idna==2.8
+requests==2.22.0
+sentry-sdk==0.13.1
+urllib3==1.25.6
