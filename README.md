@@ -42,7 +42,7 @@
 
 - Добавляем и коммитим отслеживаемые файлы:
 
-	`git add -A`
+	`git add -A`  
 	`git commit -m "first commit"`
 
 - Создаем репозиторий на GitHub. После этого связываем его с локальным:
@@ -61,7 +61,7 @@
 
 - Определяем переменные окружения:
 
-    `heroku config:set APP_LOCATION=heroku`
+    `heroku config:set APP_LOCATION=heroku`  
     `heroku config:set DSN={your_sentry_dsn}`
 
 - Загружаем код на heroku:
