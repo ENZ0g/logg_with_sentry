@@ -21,9 +21,9 @@
 
 - Нам понадобятся следющие дополнительные файлы:
 
-	`requirements.txt` 	- список дополнительных библиотек, можно получить командой `pip freeze > requirements.txt`
-	`runtime.txt`		- версия Python для запуска приложения (в моем случае python-3.7.0)
-	`Procfile`		- команда, которую выполнит Heroku при запуске моего приложения(в данном случае там будет:: 				`web: python server.py`)
+	- `requirements.txt` 	- список дополнительных библиотек, можно получить командой `pip freeze > requirements.txt`
+	- `runtime.txt`		- версия Python для запуска приложения (в моем случае python-3.7.0)
+	- `Procfile`		- команда, которую выполнит Heroku при запуске моего приложения(в данном случае там будет:: 				`web: python server.py`)
 
 - Для начала нужно запустить контроль версий:
 
@@ -33,10 +33,10 @@
 	
 	создать файл .gitignore (`gitignire.txt ->> cmd$ ren gitignore.txt .gitignore`)
 	например, в данном случае у него такое содержание:
-					TIPS virtenv and deploy.txt
-					/tests.py
-					/logger_venv/*
-					.*
+					>> TIPS virtenv and deploy.txt
+					>> /tests.py
+					>> /logger_venv/*
+					>> .*
 
 - Добавляем и коммитим отслеживаемые файлы:
 
