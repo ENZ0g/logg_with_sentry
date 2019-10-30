@@ -32,11 +32,11 @@
 - Если есть файлы и папки, за которым не нужно следить:
 	
 	создать файл .gitignore (`gitignire.txt ->> cmd$ ren gitignore.txt .gitignore`)
-	например, в данном случае у него такое содержание:
-					>> TIPS virtenv and deploy.txt
-					>> /tests.py
-					>> /logger_venv/*
-					>> .*
+	например, в данном случае у него такое содержание:  
+					> TIPS virtenv and deploy.txt  
+					> /tests.py  
+					> /logger_venv/*  
+					> .*
 
 - Добавляем и коммитим отслеживаемые файлы:
 
