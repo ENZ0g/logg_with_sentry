@@ -5,7 +5,7 @@ import os
 
 
 sentry_sdk.init(
-    dsn="https://d06396132ee848b3a833516f1e2534cf@sentry.io/1802010",
+    dsn=os.environ.get('DSN'),
     integrations=[BottleIntegration()]
 )
 
