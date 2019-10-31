@@ -31,7 +31,7 @@
 
 - Если есть файлы и папки, за которым не нужно следить:
 	
-	создать файл .gitignore (`gitignire.txt ->> cmd$ ren gitignore.txt .gitignore`)
+	создать файл .gitignore (`gitignore.txt ->> cmd$ ren gitignore.txt .gitignore`)
 	например, в данном случае у него такое содержание:  
 	
 ```
